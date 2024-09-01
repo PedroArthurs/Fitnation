@@ -1,0 +1,227 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b2a49;
+    max-width: 100%;
+    padding: 30px 100px; 
+    align-items: center;
+}
+
+#logo {
+    padding: 0;
+}
+
+a {
+    color: #FFF;
+    font-size: 15px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+nav a {
+    border-radius: 25px;
+    background: linear-gradient(135deg, #4e5d78, #3e4a63);
+    transition: background 0.3s ease, transform 0.2s ease;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #697996, #4e5d78);
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+#perfil {
+    transition: transform 100ms linear;
+}
+
+#perfil:hover {
+    transform: scale(1.10);
+}
+
+main {
+    max-width: 100%;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#suplemento {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    font-size: 18px;
+    font-family: "Cambo", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#conteudo-suplemento {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+#item-suplemento {
+    max-width: 376px;
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 20px;
+
+}
+
+#titulo-item-suplemento {
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #636363;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    #suplemento {
+        flex-basis: calc(50% - 10px); /* Ajusta a largura para 50% menos a margem */
+    }
+}
+
+@media (max-width: 600px) {
+    #suplemento {
+        flex-basis: 100%; /* Ajusta a largura para 100% em telas muito pequenas */
+    }
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    background-color: #1b2a49;
+    padding: 40px 100px; 
+    justify-content: space-between;
+
+}
+
+#descricao-footer {
+    display: block;
+    max-width: 30%;
+}
+
+#titulo-descricao {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+    padding: 0;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#texto-descricao {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #cfd6e4;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#descricao-image {
+    margin-right: 20px;
+}
+
+#social-footer {
+    display:block;
+    max-width: 30%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#titulo-social {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#texto-social {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #cfd6e4;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 12.45px;
+    padding: 0;
+}
+
+#texto-social:hover {
+    text-decoration: underline;
+}
+
+#projetos-footer {
+    display:block;
+    max-width: 30%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#titulo-projetos {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#texto-projetos {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #cfd6e4;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 12.45px;
+    padding: 0;
+}
+
+#texto-projetos:hover {
+    text-decoration: underline;
+}
+
+#parcerias-footer {
+    display:block;
+    max-width: 30%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#titulo-parcerias {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#texto-parcerias {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #cfd6e4;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 12.45px;
+    padding: 0;
+}
+
+#texto-parcerias:hover {
+    text-decoration: underline;
+}
